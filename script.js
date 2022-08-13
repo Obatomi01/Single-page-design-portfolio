@@ -7,24 +7,31 @@ const btnRight = document.querySelector(".btn-right");
 let slideIndex = 0;
 const avg = Math.floor(slides.length / 2);
 
-const moveImages = function () {
+const translateImages = function () {
   slides.forEach(
     (el) => (el.style.transform = `translateX(${slideIndex * 100}%)`)
   );
 };
 
-btnLeft.addEventListener("click", function (e) {
+const moveLeft = function () {
   slideIndex += 1;
   if (slideIndex > avg) {
     slideIndex = -avg;
   }
-  moveImages();
-});
+  translateImages();
+};
 
-btnRight.addEventListener("click", function (e) {
+const moveRight = function () {
   slideIndex -= 1;
   if (slideIndex < -avg) {
     slideIndex = avg;
   }
-  moveImages();
+  translateImages();
+};
+
+btnLeft.addEventListener("click", moveLeft);
+btnRight.addEventListener("click", moveRight);
+document.addEventListener("keydown", function (e) {
+  if (e.key === "ArrowRight") moveRight();
+  if (e.key === "ArrowLeft") moveLeft();
 });
