@@ -204,6 +204,10 @@
     text-align: center;
   }
 
+  .amy-btn {
+    width: 50%;
+    align-self: center;
+  }
   /*********************************/
   /* WORK SLIDES  SECTION */
   /*********************************/
