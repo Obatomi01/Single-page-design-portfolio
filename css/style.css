@@ -229,12 +229,12 @@ h3 {
   margin: 0 auto;
   position: relative;
 
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }
 
-.works-slide::-webkit-scrollbar {
+/* .works-slide::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .work-slide {
   border-radius: 30px;
