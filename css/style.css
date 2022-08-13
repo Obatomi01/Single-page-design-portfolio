@@ -25,7 +25,7 @@ html {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   background-color: #fff7f0;
-  padding-block: 2.4rem 6.4rem;
+  padding-block: 2.4rem 3.2rem;
 
   overflow-x: hidden;
 }
@@ -80,7 +80,7 @@ h3 {
 .header-title p,
 .amy-description p,
 .footer p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-block: 3.2rem;
   font-weight: 100;
   line-height: 1.55;
@@ -118,7 +118,7 @@ h3 {
 }
 
 .header-title p {
-  padding-inline: 15.55rem;
+  padding-inline: 3.2rem;
 }
 
 .header-title {
@@ -205,6 +205,7 @@ h3 {
 }
 
 .amy-btn {
+  display: inline-block;
   background-color: #eb7565;
 }
 
@@ -216,7 +217,6 @@ h3 {
 /*********************************/
 /* WORK SLIDES  SECTION */
 /*********************************/
-
 .works-slide {
   display: flex;
 
@@ -236,7 +236,7 @@ h3 {
 .slide-btn {
   background-color: #030303;
   color: #fff7f0;
-  padding: 3.2rem;
+  padding: 3rem;
   border-radius: 50%;
 
   border-color: transparent;
@@ -255,6 +255,7 @@ h3 {
 
 .footer {
   background-color: #030303;
+  border-radius: 10px;
   color: #fff7f0;
   padding: 12.8rem 8rem;
 

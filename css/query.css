@@ -8,5 +8,226 @@
       */
 
 /*********************************/
-/* BELOW   SECTION */
+/* BELOW 1200px  SECTION */
 /*********************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    max-width: 90rem;
+  }
+
+  .header-title {
+    width: 80%;
+  }
+
+  /*********************************/
+  /* SKILLS  SECTION */
+  /*********************************/
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 70rem;
+  }
+
+  .skill:nth-child(4) {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+  }
+
+  .skill:nth-child(6) {
+    grid-column: 3 / span 2;
+    grid-row: 3;
+  }
+
+  /*********************************/
+  /* AMY  SECTION */
+  /*********************************/
+  .amy-description {
+    width: 80%;
+  }
+
+  .amy-img {
+    width: 100%;
+    transform: translateX(-10rem);
+  }
+
+  /*********************************/
+  /* WORK SLIDES  SECTION */
+  /*********************************/
+
+  .work-slide {
+    width: 76rem;
+    height: 46rem;
+  }
+
+  /*********************************/
+  /* FOOTER  SECTION */
+  /*********************************/
+  .footer {
+    flex-direction: column;
+    gap: 3.2rem;
+
+    padding: 8rem;
+  }
+
+  .footer-description {
+    width: 80%;
+    margin: auto;
+  }
+
+  .footer-description h3 {
+    text-align: center;
+  }
+
+  .footer-description p {
+    text-align: center;
+  }
+}
+
+/*********************************/
+/* BELOW 750px  SECTION */
+/*********************************/
+
+@media (max-width: 47em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/*********************************/
+/* BELOW 500px  SECTION */
+/*********************************/
+
+@media (max-width: 47em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .container {
+    max-width: 50rem;
+  }
+
+  .logo {
+    height: 7rem;
+  }
+
+  h1 {
+    font-size: 4.4rem;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .header-logo,
+  .header-title {
+    margin-bottom: 4.8rem;
+  }
+
+  .header-title p {
+    padding-inline: 0;
+  }
+
+  .header-title p,
+  .amy-description p,
+  .footer p {
+    margin-block: 1.8rem;
+    line-height: 1.7;
+  }
+
+  /*********************************/
+  /* SKILLS  SECTION */
+  /*********************************/
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 180rem;
+  }
+
+  .skill:nth-child(2) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .skill:nth-child(3) {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .skill:nth-child(5) {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+  }
+
+  .skill:nth-child(4) {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+  }
+
+  .skill:nth-child(6) {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+  }
+
+  /*********************************/
+  /* AMY  SECTION */
+  /*********************************/
+  .amy {
+    flex-direction: column;
+    gap: 4.8rem;
+
+    justify-content: center;
+  }
+
+  .amy-img {
+    transform: translateX(0);
+  }
+
+  .amy-description {
+    width: 100%;
+    margin-block: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .amy-description h2,
+  .amy-description p {
+    text-align: center;
+  }
+
+  /*********************************/
+  /* WORK SLIDES  SECTION */
+  /*********************************/
+  .works-slide {
+    gap: 1.6rem;
+  }
+
+  .work-slide {
+    height: 26rem;
+  }
+
+  /*********************************/
+  /* FOOTER  SECTION */
+  /*********************************/
+
+  .footer-description {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 7rem 2.4rem;
+  }
+
+  .bottom-nav {
+    margin-block: 3.2rem 0;
+  }
+} ;
