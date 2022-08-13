@@ -8,87 +8,6 @@
       */
 
 /*********************************/
-/* BELOW 1200px  SECTION */
-/*********************************/
-@media (max-width: 75em) {
-  html {
-    font-size: 56.25%;
-  }
-
-  .container {
-    max-width: 90rem;
-  }
-
-  .header-title {
-    width: 80%;
-  }
-
-  /*********************************/
-  /* SKILLS  SECTION */
-  /*********************************/
-  .skills {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: 70rem;
-  }
-
-  .skill:nth-child(4) {
-    grid-column: 1 / span 2;
-    grid-row: 3;
-  }
-
-  .skill:nth-child(6) {
-    grid-column: 3 / span 2;
-    grid-row: 3;
-  }
-
-  /*********************************/
-  /* AMY  SECTION */
-  /*********************************/
-  .amy-description {
-    width: 80%;
-  }
-
-  .amy-img {
-    width: 100%;
-    transform: translateX(-10rem);
-  }
-
-  /*********************************/
-  /* WORK SLIDES  SECTION */
-  /*********************************/
-
-  .work-slide {
-    width: 76rem;
-    height: 46rem;
-  }
-
-  /*********************************/
-  /* FOOTER  SECTION */
-  /*********************************/
-  .footer {
-    flex-direction: column;
-    gap: 3.2rem;
-
-    padding: 8rem;
-  }
-
-  .footer-description {
-    width: 80%;
-    margin: auto;
-  }
-
-  .footer-description h3 {
-    text-align: center;
-  }
-
-  .footer-description p {
-    text-align: center;
-  }
-}
-
-/*********************************/
 /* BELOW 750px  SECTION */
 /*********************************/
 
@@ -187,7 +106,8 @@
   }
 
   .amy-img {
-    transform: translateX(0);
+    margin: auto;
+    width: 60%;
   }
 
   .amy-description {
@@ -215,10 +135,6 @@
     gap: 1.6rem;
   }
 
-  .work-slide {
-    height: 26rem;
-  }
-
   /*********************************/
   /* FOOTER  SECTION */
   /*********************************/
@@ -227,7 +143,12 @@
     width: 100%;
   }
 
+  .footer-description h3 {
+    text-align: center;
+  }
+
   .footer {
+    flex-direction: column;
     padding: 7rem 2.4rem;
   }
 

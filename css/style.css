@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 110rem;
   margin: auto;
 }
 
@@ -123,7 +123,7 @@ h3 {
 
 .header-title {
   margin-inline: auto;
-  width: 60%;
+  width: 70%;
   text-align: center;
 }
 
@@ -140,7 +140,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  height: 50rem;
+  height: 40rem;
 }
 
 .skill:first-child {
@@ -198,10 +198,11 @@ h3 {
   display: flex;
   justify-content: center;
   align-content: center;
+  gap: 4.8rem;
 }
 
 .amy-img {
-  width: 80%;
+  width: 40%;
 }
 
 .amy-btn {
@@ -210,7 +211,7 @@ h3 {
 }
 
 .amy-description {
-  width: 40%;
+  width: 80%;
   margin-block: auto;
 }
 
@@ -223,15 +224,27 @@ h3 {
   align-content: center;
   justify-content: center;
 
-  margin-block: 4.8rem;
+  /* max-width: 100rem; */
+  height: 40rem;
+  margin: 0 auto;
+  position: relative;
+
   overflow-x: auto;
 }
 
+.works-slide::-webkit-scrollbar {
+  display: none;
+}
+
 .work-slide {
-  border-radius: 20px;
-  width: 95rem;
-  height: 62rem;
+  border-radius: 30px;
   transition: transform 2s ease-in;
+  padding: 1.2rem;
+
+  position: absolute;
+  top: 0;
+  width: 50rem;
+  height: 35rem;
 }
 
 .slide-btn {
