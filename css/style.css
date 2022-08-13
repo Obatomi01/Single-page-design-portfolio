@@ -27,7 +27,7 @@ body {
   background-color: #fff7f0;
   padding-block: 2.4rem 3.2rem;
 
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .container {
@@ -229,7 +229,7 @@ h3 {
   margin: 0 auto;
   position: relative;
 
-  /* overflow-x: auto; */
+  overflow-x: auto;
 }
 
 /* .works-slide::-webkit-scrollbar {
