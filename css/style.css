@@ -224,6 +224,7 @@ h3 {
   justify-content: center;
 
   margin-block: 4.8rem;
+  overflow-x: auto;
 }
 
 .work-slide {
