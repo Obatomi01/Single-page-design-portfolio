@@ -234,4 +234,8 @@
   .bottom-nav {
     margin-block: 3.2rem 0;
   }
+
+  .footer-btn {
+    width: auto;
+  }
 } ;
