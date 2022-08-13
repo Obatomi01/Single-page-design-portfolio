@@ -19,7 +19,7 @@
 html {
   font-size: 62.5%;
 
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   background-color: #fff7f0;
   padding-block: 2.4rem 3.2rem;
 
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .container {
