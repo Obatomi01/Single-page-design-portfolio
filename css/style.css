@@ -19,7 +19,7 @@
 html {
   font-size: 62.5%;
 
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 body {
@@ -228,13 +228,11 @@ h3 {
   height: 40rem;
   margin: 0 auto;
   position: relative;
-
-  overflow-x: auto;
 }
 
-.works-slide::-webkit-scrollbar {
+/* .works-slide::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .work-slide {
   border-radius: 30px;

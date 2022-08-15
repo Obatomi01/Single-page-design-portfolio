@@ -26,8 +26,7 @@ const goToSlide = function (slide) {
     el.style.transform = `translateX(${(i - slide) * 100}%)`;
     newAngle = Number(el.style.transform.slice(10).slice(1).replace("%)", ""));
     angleDetails[i] = newAngle;
-  }); // remember that the centered element is on 0%
-  console.log(angleDetails);
+  });
 };
 
 const moveLeft = function () {
@@ -67,6 +66,3 @@ document.addEventListener("keydown", function (e) {
   if (e.key === "ArrowRight") moveRight();
   if (e.key === "ArrowLeft") moveLeft();
 });
-
-// TODO when the right button is clicked the each
-// TODO i want to get the translate% and then use the gotten data to move the image when a button is clicked
