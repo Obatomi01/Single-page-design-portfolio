@@ -232,9 +232,9 @@ h3 {
   overflow-x: auto;
 }
 
-/* .works-slide::-webkit-scrollbar {
+.works-slide::-webkit-scrollbar {
   display: none;
-} */
+}
 
 .work-slide {
   border-radius: 30px;

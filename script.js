@@ -42,7 +42,6 @@ const moveLeft = function () {
     newAngle = Number(el.style.transform.slice(10).slice(1).replace("%)", ""));
     angleDetails[i] = newAngle;
   });
-  console.log(slideIndex);
   if (slideIndex < -2) slideIndex = 2;
 };
 
@@ -54,17 +53,10 @@ const moveRight = function () {
       slideIndex > 2
         ? `translateX(${angleDetails[i] + 400}%)`
         : `translateX(${angleDetails[i] - 100}%)`;
-    // if (slideIndex > 2) {
-    //   newAngle = `translateX(${angleDetails[i] + 400}%)`;
-    //   slideIndex = -2;
-    // } else {
-    //   newAngle = `translateX(${angleDetails[i] - 100}%)`;
-    // }
     el.style.transform = newAngle;
     newAngle = Number(el.style.transform.slice(10).slice(1).replace("%)", ""));
     angleDetails[i] = newAngle;
   });
-  console.log(slideIndex);
   if (slideIndex > 2) slideIndex = -2;
 };
 
