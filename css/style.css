@@ -238,7 +238,7 @@ h3 {
 
 .work-slide {
   border-radius: 30px;
-  transition: transform 2s ease-in;
+  transition: transform 1s ease-in;
   padding: 1.2rem;
 
   position: absolute;
