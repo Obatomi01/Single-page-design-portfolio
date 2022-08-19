@@ -133,8 +133,12 @@
   /*********************************/
   .works-slide {
     gap: 1.6rem;
+    overflow-x: auto;
   }
 
+  .works-slide::-webkit-scrollbar {
+    display: none;
+  }
   /*********************************/
   /* FOOTER  SECTION */
   /*********************************/

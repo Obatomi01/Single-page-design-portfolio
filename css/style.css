@@ -230,10 +230,6 @@ h3 {
   position: relative;
 }
 
-/* .works-slide::-webkit-scrollbar {
-  display: none;
-} */
-
 .work-slide {
   border-radius: 30px;
   transition: transform 1s ease-in;
