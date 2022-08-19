@@ -69,7 +69,7 @@ document.addEventListener("keydown", function (e) {
 });
 
 function reportWindowSize() {
-  if (window.innerHeight < 500) {
+  if (window.innerWidth < 500 || window.innerHeight < 500) {
     goToSlide(0);
     maxLimit = 4;
     minLimit = 0;
