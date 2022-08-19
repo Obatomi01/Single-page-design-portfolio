@@ -68,6 +68,7 @@ document.addEventListener("keydown", function (e) {
   if (e.key === "ArrowLeft") moveLeft();
 });
 
+// wanted to adjust the view on smaller screens
 function reportWindowSize() {
   if (window.innerWidth < 500 || window.innerHeight < 500) {
     goToSlide(0);
